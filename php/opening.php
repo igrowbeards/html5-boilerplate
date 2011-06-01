@@ -29,7 +29,7 @@
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" href="css/style.css?v=2">
 	<!-- The 1140px Grid --> 
-	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" /> 
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" /> 
 	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" /> 
 	<!-- <link rel="stylesheet" href="css/typeimg.css" type="text/css" media="screen" /> -->
 	
