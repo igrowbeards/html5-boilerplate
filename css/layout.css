@@ -112,7 +112,7 @@ body {
 .container {
   padding-top: 30px;
 }
-header, footer {
+#header_wrap, #footer_wrap {
   background: #262626;
   color: #e8e8e8;
 }

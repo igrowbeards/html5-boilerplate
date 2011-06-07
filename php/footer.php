@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="footer_wrap">
     <footer class="row">
         <div class="sixcol" id="footer_links">
             <ul>
