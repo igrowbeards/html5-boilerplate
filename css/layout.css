@@ -1,7 +1,4 @@
 /* Typography */
-#main {
-  padding: 10px 0 30px 0;
-}
 #main h1,
 #main h2,
 #main h3,
@@ -116,6 +113,13 @@ body {
   background: #262626;
   color: #e8e8e8;
 }
+#header_wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer_wrap {
+  padding-bottom: 40px;
+}
 #intro, #secondary {
   border-bottom: 2px solid #8098a9;
 }
@@ -138,10 +142,18 @@ body {
 #logo p {
   text-indent: -999px;
 }
+nav ul {
+  overflow: auto;
+  text-align: center;
+  min-height: 130px;
+  line-height: 130px;
+}
 nav ul li {
+  width: 18%;
   display: inline-block;
-  float: left;
-  padding: 20px;
+}
+nav ul li a {
+  width: 100%;
 }
 /* Color Variables */
 /* Helper Classes */

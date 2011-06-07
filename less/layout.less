@@ -2,8 +2,6 @@
 
 #main {
     
-    padding: 10px 0 30px 0; 
-    
     h1,h2,h3,h4,h5,h6 {
         color: @accent;
         margin: 15px 0 20px 0;
@@ -137,6 +135,15 @@ body {
     color: @secondaryText;
 }
 
+#header_wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer_wrap {
+    padding-bottom: 40px;
+}
+
 #intro, #secondary {
     border-bottom: 2px solid @accentShade;
 }
@@ -159,11 +166,26 @@ body {
     text-indent: -999px;
 }
 
-nav ul li {
-    display: inline-block;
-    float: left;
-    padding: 20px;
+nav ul {
+    
+    overflow: auto;
+    text-align: center;
+    min-height: 130px;
+    line-height: 130px;
+    
+    li {
+        
+        width: 18%;
+        display: inline-block;
+        
+        a {
+            width: 100%;
+        }
+        
+    }
+    
 }
+
 
 
 /* Color Variables */
