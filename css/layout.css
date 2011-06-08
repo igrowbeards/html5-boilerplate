@@ -139,8 +139,8 @@ body {
 #secondary .featured_item img {
   float: right;
 }
-#logo p {
-  text-indent: -999px;
+#logo {
+  text-align: center;
 }
 nav ul {
   overflow: auto;
