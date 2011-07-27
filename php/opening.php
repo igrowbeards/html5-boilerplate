@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" /> 
 
         <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-        <script src="js/libs/modernizr-1.6.min.js"></script>
+        <script src="js/modernizr-1.7.min.js"></script>
 
     </head>
 
