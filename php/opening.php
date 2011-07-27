@@ -1,19 +1,24 @@
 <!doctype html>  
 
     <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
-    <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-    <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-    <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-    <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-    <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+    <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+    <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+    <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class=""> <!--<![endif]-->
     <head>
+		<script type="text/javascript">
+			//Credit: Doug Neiner - http://dougneiner.com/
+			document.documentElement.className += " js"
+		</script>
+
         <meta charset="utf-8">
 
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
         Remove this if you use the .htaccess -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>Title Here</title>
+        <title>Vert Studios Boiler Plate</title>
         <meta name="description" content="">
         <meta name="author" content="">
 
