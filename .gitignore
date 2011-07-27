@@ -35,3 +35,7 @@ publish
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
+
+# Vert specfic
+less/lessjs/*
+less/less.js
