@@ -121,6 +121,9 @@ body {
     color: @text;
 }
 /* Main Styles */
+.jshidden{
+	display: none;
+}
 
 body {
     background: @BG;
@@ -315,4 +318,27 @@ nav ul {
         color: lighten(@accentHighlight, 22%);
         text-shadow: 0px -1px 1px @accentShade;
     }
+
+/* ================== Slideshow Styles ================== */
+#slideshow_wrapper{
+	background-color: #000000;
+	height: 400px;
+	padding: 15px;
+
+	#slideshow{
+		width: 1110px;
+		height: 400px;
+		overflow: hidden;
+		position: relative;
+
+		.slide{
+			position: absolute;
+			width: 1110px;
+			height: 400px;
+			top: 0px;
+			left: 0px;
+		}
+	}
+}
+/* xxxxxxxxxxxxxxxxxx End Slideshow Styles xxxxxxxxxxxxxxxxxx */
 
