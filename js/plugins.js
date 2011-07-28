@@ -370,6 +370,10 @@ function Slaveshow(id, options){
 									
 					//Determine which slide is active, and give the active class to the corresponding nav element
 					jQuery(defaultSettings.nav).eq(newActiveIndex).addClass('slideNavActive slideNavActiveUnclickable');
+
+					// Add active class to active slide. Remove from inactive slides
+					jQuery(defaultSettings.slides).removeClass('active').eq(newActiveIndex).addClass('active');
+
 				}				
 			}, $this.delay);
 			
