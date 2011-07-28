@@ -35,4 +35,4 @@ nav ul{overflow:auto;text-align:center;min-height:130px;line-height:130px;}nav u
 .clearfix:before{content:"\0020";display:block;height:0;visibility:hidden;}
 .clearfix:after{clear:both;}
 .clearfix{zoom:1;}
-#slideshow_wrapper{background-color:#000000;height:400px;padding:15px;}#slideshow_wrapper #slideshow{width:1110px;height:400px;overflow:hidden;position:relative;}#slideshow_wrapper #slideshow .slide{position:absolute;width:1110px;height:400px;top:0px;left:0px;}
+#slideshow_wrapper{background-color:#000000;height:400px;padding:15px;}#slideshow_wrapper #slideshow{width:100%;height:100%;overflow:hidden;position:relative;}#slideshow_wrapper #slideshow .slide{position:absolute;top:0px;left:0px;}

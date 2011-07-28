@@ -28,7 +28,7 @@
 					<div class="twelvecol last">
 						<div id="slideshow_wrapper">
 							<div id="slideshow">
-								<div class="slide">
+								<div class="slide active">
 									<img src="http://placehold.it/1110x400/ffff00">
 								</div>
 								<div class="slide jshidden">

@@ -17,4 +17,21 @@ $(window).load(function(){
 
 	slideshow.animate();
 
+	var slideshowDiv = $("#slideshow");
+	var slideshowWrapper = $("#slideshow_wrapper");
+	var slides = $(slideshowDiv).children();
+
+	$(window).resize(function(){
+		resizeSlideshow();
+	});
+
+	function resizeSlideshow(){
+		slides.width( slideshowDiv.innerWidth() );
+		slideshowWrapper.height( slides.innerHeight() );
+		slides.not(".active").css('left', '-9999px');
+	}
+
+
+	resizeSlideshow();
+
 }); //End jQuery
